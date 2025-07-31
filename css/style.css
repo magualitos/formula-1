@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+body{
+    background-color: #16151e;
+    margin: 0px;
+    grid-template-areas: "header header header";
+    grid-template-columns: 200px  200px  200px;
+
+}
+
+    .logo{
+        position: relative;
+        text-align: center;
+        top: 200px;
+        margin: 0%;
+    }
+
+#header{
+    grid-area: header;
+    background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
+}
