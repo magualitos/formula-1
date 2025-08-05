@@ -1,11 +1,12 @@
 @charset 'UTF-8';
 
 body{
+    display:grid ;
     background-color: #16151e;
     margin: 0px;
-    grid-template-areas: "header header header";
-    grid-template-columns: 200px  200px  200px;
-
+    grid-template-areas: "div div div";
+    grid-template-columns: 100%;
+    grid-template-rows: 60px 60px 60px;
 }
 
     .logo{
@@ -15,7 +16,30 @@ body{
         margin: 0%;
     }
 
-#header{
-    grid-area: header;
+.menu{
+    grid-area: div;
     background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
+    grid-column: div;
+    grid-row: div;
+    display: grid;
+    grid-template-areas: "h1 h2 nav";
+    grid-template-columns:20% 60% 20%;
+}
+
+#header {
+    padding-top: 20px;
+}
+
+nav{
+    grid-area: nav;
+    grid-column: nav;
+    color:#16151e;
+    
+}
+
+.nome {
+    grid-area: h1;
+    grid-column: h1;
+    color:red;
+    text-align: center;
 }
