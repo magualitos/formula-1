@@ -1,45 +1,104 @@
+/*base da pagina*/
 @charset 'UTF-8';
 
-body{
-    display:grid ;
+body {
+    display: grid;
     background-color: #16151e;
     margin: 0px;
-    grid-template-areas: "div div div";
-    grid-template-columns: 100%;
-    grid-template-rows: 60px 60px 60px;
 }
 
-    .logo{
-        position: relative;
-        text-align: center;
-        top: 200px;
-        margin: 0%;
-    }
 
-.menu{
-    grid-area: div;
+.menu {
     background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
-    grid-column: div;
-    grid-row: div;
     display: grid;
-    grid-template-areas: "h1 h2 nav";
-    grid-template-columns:20% 60% 20%;
+    grid-template-areas: "h1 nav";
+    grid-template-columns: 75% 25%;
 }
 
 #header {
     padding-top: 20px;
+    justify-content: center;
+    display: grid;
+    padding: 150px;
 }
 
-nav{
-    grid-area: nav;
-    grid-column: nav;
-    color:#16151e;
-    
+.logo {
+    margin: 0%;
+    display: grid;
+}
+
+nav {
+    margin: 0px;
+    color: #16151e;
+    font-family: "Oswald", sans-serif;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    grid-template-areas: "home pilotos equipes entre";
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px;
+    gap: 20px;
+    display: grid;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #16151e;
+}
+
+li {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+li:hover {
+    transition: 0.3s linear;
+    color: red ;
+    overflow: hidden;
+}
+
+.home {
+    list-style: none;
+}
+
+.pilotos{
+    list-style: none;
+}
+
+.equipes{
+    grid-area: equipes;
+    grid-column: equipes;
+    grid-row: equipes;
+    list-style: none;
+}
+
+.entre{
+    grid-area: entre;
+    grid-column: entre;
+    grid-row: entre;
+    list-style: none;
 }
 
 .nome {
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    font-size: 30pt;
     grid-area: h1;
     grid-column: h1;
-    color:red;
-    text-align: center;
+    color: red;
+    margin-left: 20px;
+}
+
+/*base da pagina*/
+
+.titulo{
+position: relative;
+top: 100px;
+font-size: 40pt;
+right: 50px;
+font-family: "Oswald", sans-serif;
+color: red;
 }
