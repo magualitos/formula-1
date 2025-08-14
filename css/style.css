@@ -2,7 +2,6 @@
 @charset 'UTF-8';
 
 body {
-    display: grid;
     background-color: #16151e;
     margin: 0px;
 }
@@ -52,19 +51,15 @@ a{
 li {
     margin-top: 15px;
     cursor: pointer;
+    transition: 0.3s linear;
 }
 
 li:hover {
-    transition: 0.3s linear;
     color: red ;
     overflow: hidden;
 }
 
 .home {
-    list-style: none;
-}
-
-.pilotos{
     list-style: none;
 }
 
@@ -95,10 +90,36 @@ li:hover {
 /*base da pagina*/
 
 .titulo{
-position: relative;
-top: 100px;
-font-size: 40pt;
-right: 50px;
-font-family: "Oswald", sans-serif;
-color: red;
+    position: relative;
+    top: 100px;
+    font-size: 40pt;
+    right: 10px;
+    font-family: "Oswald", sans-serif;
+    color: red;
+}
+
+.pilotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 70px;
+}
+
+.piloto {
+    border: solid 6px;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.nome1 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(116, 0, 0);
+    text-align: center;
+    transition: 0.5s linear;
+}
+
+.nome1:hover {
+    color: red;
+    overflow: hidden;
 }
