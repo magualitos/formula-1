@@ -98,36 +98,51 @@ li:hover {
     color: red;
 }
 
-.pilotos {
+.equipes{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 60px;
-    margin-bottom: 70px;
-}
-
-.piloto {
-    border-radius: 20px;
-}
-
-.nome1 {
     font-family: "Oswald", sans-serif;
-    color: rgb(116, 0, 0);
     text-align: center;
-    transition: 0.5s linear;
+    margin-bottom: 50px;
 }
 
-.nome1:hover {
+.equipe{
+    border-radius: 20px;
+    text-align: center;
+}
+
+.mclaren{
+    color: orange;
+}
+
+.mercedes{
+    color: silver;
+}
+
+.ferrari{
     color: red;
-    overflow: hidden;
+}
+
+.lotus{
+    color: yellow;
+}
+
+.renault{
+    color: rgb(199, 129, 0);
+}
+
+.willians{
+    color: rgb(0, 16, 107);
+}
+
+.redbul{
+    color: rgb(18, 0, 83);
 }
 
 footer{
     display: flex;
     background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
     height: 40px;
-}
-
-.alonso:hover{
-    background-color: rgba(0, 0, 0, 0.5);
 }
