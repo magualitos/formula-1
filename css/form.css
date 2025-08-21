@@ -132,7 +132,35 @@ footer{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-footer{
+form {
+    align-items: center;
+    margin-left: 700px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
+    width: 500px;
+    height: 700px;
+    text-align: center;
+}
+
+label {
+    color: rgb(138, 0, 0);
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
+
+footer {
     display: flex;
     background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
     height: 40px;
