@@ -96,3 +96,22 @@ footer{
     background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
     height: 40px;
 }
+
+/*conteudo*/
+
+.trofeus{
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.imgtrofeus{
+    border-radius:30px;
+    background-image: linear-gradient(to top, yellow,green,yellow,blue,yellow);;
+    border: solid 9px transparent;
+}
+
+.imgtr{
+    border-radius: 30px;
+}
