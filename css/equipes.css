@@ -111,6 +111,11 @@ li:hover {
 .equipe{
     border-radius: 20px;
     text-align: center;
+    transition: 0.5s;
+}
+
+.equipe:hover {
+    transform: scale(1.2);
 }
 
 .mclaren{
