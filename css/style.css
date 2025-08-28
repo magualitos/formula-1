@@ -106,20 +106,26 @@ li:hover {
     margin-bottom: 70px;
 }
 
+.piloto:hover {
+    transform: scale(1.2);
+}
+
 .piloto {
     border-radius: 20px;
+    transition: 0.8s;
 }
 
 .nome1 {
     font-family: "Oswald", sans-serif;
     color: rgb(116, 0, 0);
     text-align: center;
-    transition: 0.5s linear;
+    transition: 0.4s linear;
 }
 
 .nome1:hover {
     color: red;
     overflow: hidden;
+    transform: scale(1.2);
 }
 
 footer{
@@ -132,8 +138,3 @@ footer{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-footer{
-    display: flex;
-    background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
-    height: 40px;
-}

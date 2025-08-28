@@ -135,6 +135,7 @@ footer{
 form {
     align-items: center;
     margin-left: 700px;
+    margin-top: 100px;
 }
 
 fieldset {
@@ -149,19 +150,40 @@ fieldset {
 }
 
 label {
-    color: rgb(138, 0, 0);
+    color: rgba(0, 0, 0, 0.774);
+    margin: 20px;
+    font-size: 25px;
+    transition: 0.5s;
 }
 
+label:hover {
+    transform: scale(1.2);
+    color: red;
+}
+ 
 input {
     height: 50px;
     width: 300px;
     border: none;
     border-radius: 15px;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
 }
 
-footer {
-    display: flex;
+button {
+    margin-top: 250px;
+    height: 50px;
+    width: 80px;
+    border: solid;
+    border-radius: 10px;
     background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
-    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.2);
+    color: red;
 }
