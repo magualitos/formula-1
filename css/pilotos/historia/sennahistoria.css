@@ -96,3 +96,29 @@ footer {
     background-image: linear-gradient(to right, green, yellow);
     height: 40px;
 }
+
+h2 {
+    font-family: "Bungee", sans-serif;
+    background: linear-gradient(to right, green, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+p{
+    background: linear-gradient(to right, green, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "Oswald", sans-serif;
+    
+}
+
+.wikihistoria{
+    position: absolute;
+    background-color: transparent;
+    border: 8px solid green;
+    box-shadow: 5px 5px 8px yellow;
+    border-radius: 20px ;
+    text-align: center;
+}
