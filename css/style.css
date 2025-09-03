@@ -77,6 +77,10 @@ li:hover {
     list-style: none;
 }
 
+.entre:hover {
+    transform: scale(1.2);
+}
+
 .nome {
     margin: 0px;
     font-family: "Oswald", sans-serif;
@@ -86,6 +90,8 @@ li:hover {
     color: red;
     margin-left: 20px;
 }
+
+
 
 /*base da pagina*/
 
