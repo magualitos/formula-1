@@ -143,14 +143,14 @@ fieldset {
     flex-direction: column;
     border: none;
     border-radius: 15px;
-    background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
+    background-color: black;
     width: 500px;
     height: 700px;
     text-align: center;
 }
 
 label {
-    color: rgba(0, 0, 0, 0.774);
+    color: rgb(255, 0, 0);
     margin: 20px;
     font-size: 25px;
     transition: 0.5s;
@@ -172,12 +172,13 @@ input {
 }
 
 button {
+    color: rgb(255, 0, 0);
     margin-top: 250px;
     height: 50px;
     width: 80px;
     border: solid;
     border-radius: 10px;
-    background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
+    background-color: black;
     margin-left: auto;
     margin-right: auto;
     transition: 0.5s;
