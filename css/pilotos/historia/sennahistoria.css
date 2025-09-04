@@ -111,14 +111,17 @@ p{
     background-clip: text;
     color: transparent;
     font-family: "Oswald", sans-serif;
-    
+    padding: 20px;
+    font-size: 20px;
 }
 
 .wikihistoria{
     position: absolute;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
     border: 8px solid green;
     box-shadow: 5px 5px 8px yellow;
     border-radius: 20px ;
     text-align: center;
+    top: 200px;
+    left: 400px;
 }

@@ -96,3 +96,32 @@ footer {
     background-image: linear-gradient(to right, green, yellow);
     height: 40px;
 }
+
+h2 {
+    font-family: "Bungee", sans-serif;
+    background: linear-gradient(to right, green, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+p{
+    background: linear-gradient(to right, green, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: "Oswald", sans-serif;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.wikitrofeus{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 8px solid green;
+    box-shadow: 5px 5px 8px yellow;
+    border-radius: 20px ;
+    text-align: center;
+    top: 200px;
+    left: 400px;
+}
