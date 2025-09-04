@@ -126,6 +126,18 @@ p{
     left: 400px;
 }
 
-button{
-    
+button {
+    font-family: "Bungee", sans-serif;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 8px solid green;
+    box-shadow: 5px 5px 8px yellow;
+    border-radius: 20px ;
+    text-align: center;
+    top: 900px;
+    left: 400px;
+    background: linear-gradient(to right, green, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
