@@ -1,0 +1,179 @@
+@charset 'UTF-8';
+
+body {
+    background-color: #16151e;
+    margin: 0px;
+}
+
+
+.menu {
+    background-image: linear-gradient(to right, green, yellow);
+    display: grid;
+    grid-template-areas: "h1 nav";
+    grid-template-columns: 75% 25%;
+}
+
+#header {
+    padding-top: 20px;
+    justify-content: center;
+    display: grid;
+    padding: 150px;
+}
+
+.logo {
+    margin: 0%;
+    display: grid;
+}
+
+nav {
+    margin: 0px;
+    color: #16151e;
+    font-family: "Oswald", sans-serif;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    grid-template-areas: "home pilotos equipes entre";
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px;
+    gap: 20px;
+    display: grid;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #16151e;
+}
+
+li {
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+li:hover {
+    color: green;
+    overflow: hidden;
+}
+
+.home {
+    list-style: none;
+}
+
+.equipes {
+    grid-area: equipes;
+    grid-column: equipes;
+    grid-row: equipes;
+    list-style: none;
+}
+
+.entre {
+    grid-area: entre;
+    grid-column: entre;
+    grid-row: entre;
+    list-style: none;
+}
+
+.nome {
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    font-size: 30pt;
+    grid-area: h1;
+    grid-column: h1;
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+.video {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    background-image: linear-gradient(to right, green, yellow);
+    height: 40px;
+}
+
+/*conteudo*/
+
+.trofeus {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.imgtrofeus {
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, yellow, green, yellow, blue, yellow);
+    border: solid 9px transparent;
+}
+
+.imgtrofeus:hover img {
+    transform: scale(1.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.imgtr {
+    border-radius: 30px;
+}
+
+img {
+    transition: all 0.5s ease-in-out;
+}
+
+p {
+    font-family: "Bungee", sans-serif;
+    opacity: 0;
+    transition: 0.5s;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    padding: 0;
+    z-index: 10;
+    font-size: 50px;
+    bottom: 70px;
+    left: 40px;
+    background: linear-gradient(to right, green, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.imgtrofeus:hover p {
+    opacity: 0.5;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.imghistoria:hover p {
+    opacity: 0.5;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.historia {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    left: 1300px;
+}
+
+.imghistoria {
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, yellow, green, yellow, blue, yellow);
+    border: solid 9px transparent;
+}
+
+.imghistoria:hover img {
+    transform: scale(1.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.imghis {
+    border-radius: 30px;
+}
