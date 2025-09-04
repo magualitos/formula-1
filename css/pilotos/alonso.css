@@ -1,0 +1,145 @@
+@charset 'UTF-8';
+
+body {
+    background-color: #16151e;
+    margin: 0px;
+}
+
+
+.menu {
+    background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
+    display: grid;
+    grid-template-areas: "h1 nav";
+    grid-template-columns: 75% 25%;
+}
+
+#header {
+    padding-top: 20px;
+    justify-content: center;
+    display: grid;
+    padding: 150px;
+}
+
+.logo {
+    margin: 0%;
+    display: grid;
+}
+
+nav {
+    margin: 0px;
+    color: #16151e;
+    font-family: "Oswald", sans-serif;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    grid-template-areas: "home pilotos equipes entre";
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px;
+    gap: 20px;
+    display: grid;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #16151e;
+}
+
+li {
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+li:hover {
+    color: red ;
+    overflow: hidden;
+}
+
+.home {
+    list-style: none;
+}
+
+.equipes{
+    grid-area: equipes;
+    grid-column: equipes;
+    grid-row: equipes;
+    list-style: none;
+}
+
+.entre{
+    grid-area: entre;
+    grid-column: entre;
+    grid-row: entre;
+    list-style: none;
+}
+
+.entre:hover {
+    transform: scale(1.2);
+}
+
+.nome {
+    margin: 0px;
+    font-family: "Oswald", sans-serif;
+    font-size: 30pt;
+    grid-area: h1;
+    grid-column: h1;
+    color: red;
+    margin-left: 20px;
+}
+
+
+
+/*base da pagina*/
+
+.titulo{
+    position: relative;
+    top: 100px;
+    font-size: 40pt;
+    right: 10px;
+    font-family: "Oswald", sans-serif;
+    color: red;
+}
+
+.pilotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 70px;
+}
+
+.piloto:hover {
+    transform: scale(1.2);
+}
+
+.piloto {
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.nome1 {
+    font-family: "Oswald", sans-serif;
+    color: rgb(116, 0, 0);
+    text-align: center;
+    transition: 0.4s linear;
+}
+
+.nome1:hover {
+    color: red;
+    overflow: hidden;
+    transform: scale(1.2);
+}
+
+footer{
+    display: flex;
+    background-image: linear-gradient(to right, rgb(56, 0, 0), rgb(138, 0, 0));
+    height: 40px;
+}
+
+.alonso:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
