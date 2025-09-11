@@ -63,6 +63,10 @@ li:hover {
     list-style: none;
 }
 
+.home:hover {
+    transform: scale(1.2);
+}
+
 .equipes{
     grid-area: equipes;
     grid-column: equipes;
@@ -75,6 +79,10 @@ li:hover {
     grid-column: entre;
     grid-row: entre;
     list-style: none;
+}
+
+.entre:hover {
+    transform: scale(1.2);
 }
 
 .nome {
@@ -112,6 +120,10 @@ li:hover {
     border-radius: 20px;
     text-align: center;
     transition: 0.5s;
+}
+
+.equipes:hover {
+    transform: scale(1.2);
 }
 
 .equipe:hover {

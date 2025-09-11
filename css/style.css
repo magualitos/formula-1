@@ -63,11 +63,19 @@ li:hover {
     list-style: none;
 }
 
+.home:hover {
+    transform: scale(1.2);
+}
+
 .equipes{
     grid-area: equipes;
     grid-column: equipes;
     grid-row: equipes;
     list-style: none;
+}
+
+.equipes:hover {
+    transform: scale(1.2);
 }
 
 .entre{
@@ -90,8 +98,6 @@ li:hover {
     color: red;
     margin-left: 20px;
 }
-
-
 
 /*base da pagina*/
 
